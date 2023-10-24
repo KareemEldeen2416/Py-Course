@@ -82,21 +82,21 @@
 # ---------------------------------------------------#
 
 
-e = "I like Python, and Java"
-c = "I-like-Python,-and-Java"
-d = "Kareem"
-f = "I am Iron man man"
-m = "I AM THOR"
-print(e.split())
-print(type(e.split()))
-print(c.split("-"))
-print(c.split("-", 2))
-print(c.rsplit("-"))
-print(d.center(9))
-print(d.center(10, "#"))
-print(f.count("a"))
-print(f.count("man"))
-print(f.count("a", 14, len(f)-1))
-print(m.swapcase())
-print(f.startswith("i"))
-print(f.endswith("n", 6, len(f)))
+# e = "I like Python, and Java"
+# c = "I-like-Python,-and-Java"
+# d = "Kareem"
+# f = "I am Iron man man"
+# m = "I AM THOR"
+# print(e.split())
+# print(type(e.split()))
+# print(c.split("-"))
+# print(c.split("-", 2))
+# print(c.rsplit("-"))
+# print(d.center(9))
+# print(d.center(10, "#"))
+# print(f.count("a"))
+# print(f.count("man"))
+# print(f.count("a", 14, len(f)-1))
+# print(m.swapcase())
+# print(f.startswith("i"))
+# print(f.endswith("n", 6, len(f)))
