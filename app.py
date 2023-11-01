@@ -438,3 +438,222 @@
 
 
 # ---------------------------------------------------#
+
+
+# name = " "
+# print(name.isspace())
+# print(100 > 200)
+# print(10 > 0)
+# print(bool("Osama"))
+# print(bool(100))
+# print(bool(True))
+# print(bool([1, 2, 3]))
+# print(bool((1, 2, 3)))
+# print(bool(0))
+# print(bool(False))
+# print(bool([]))
+# print(bool({}))
+# print(bool(None))
+
+
+# age = 36
+# country = "Egypt"
+# rank = 2
+# print(age > 10 and country == "Egypt")
+# print(age > 40 or country == "Egypt" or rank > 1)
+# print(age > 40 or country == "Egypt" or rank < 1)
+# print(not (age > 10))
+
+
+# ---------------------------------------------------#
+
+# age = 10
+# age += 2
+# print(age)  # 12
+# age -= 10
+# print(age)  # 2
+# age *= 3
+# print(age)  # 6
+# age /= 2
+# print(age)  # 3
+# age **= 3
+# print(age)  # 27
+# age %= 4
+# print(age)  # 3
+# age = 34
+# age //= 3
+# print(age)  # 11
+
+
+# ---------------------------------------------------#
+
+# print(100 == 100)
+# print(100 == 200)
+# print(100 == 100.0)
+# print(100 != 100)
+# print(100 != 200)
+# print(10 > 5)
+# print(2 > 5)
+# print(10 >= 10)
+# print(2 >= 5)
+# print(2 < 5)
+# print(2 <= 2)
+
+
+# ---------------------------------------------------#
+
+
+# a = 10
+# print(type(a))
+# print(type(str(a)))
+# c = "Osama"
+# d = [1, 2, 3, 4, 5]
+# e = {"A", "B", "c"}
+# f = {"one" , "two"}
+# print(tuple(c))
+# print(tuple(d))
+# print(tuple(e))
+# print(tuple(f))
+# print(list(c))
+# print(list(d))
+# print(list(e))
+# print(list(f))
+# print(set(c))
+# print(set(d))
+# print(set(e))
+# print(set(f))
+
+
+# ---------------------------------------------------#
+
+
+# fname = input("Enter your first name\n")
+# print(f"Your name is: {fname}")
+
+
+# ---------------------------------------------------#
+
+# email = input("Enter your email address\n").
+# print(f"User name is: {email[:email.index("@")]} ")
+# print(f"Your website is: {email[email.index("@")+1: email.index(".")]}")
+
+
+# ---------------------------------------------------#
+
+# age = int(input("What is your age?\n").strip())
+
+# months = age * 12
+# week = age * 4
+# days = age * 365
+# hours = days * 24
+# minutes = hours * 60
+# seconds = minutes * 60
+# print(f"Your age is {months} months\n, {week} weeks\n, {days} days\n, {hours} hours\n, {minutes} minutes\n, and {seconds} seconds\n")
+
+
+# ---------------------------------------------------#
+
+
+# userName = "Osama"
+# course = "Python Course"
+# country = "Egypt"
+# job = "Student"
+# cPrice = 100
+# cDiscount = 0
+
+# if country == "Egypt":
+#     if job == "Student":
+#         cDiscount = 90
+#     else:
+#         cDiscount = 70
+# elif country == "Makka":
+#     cDiscount = 10
+# else:
+#     cDiscount = 20
+# print(f"Hello {userName} {course} is {cPrice-cDiscount}$")
+
+
+# ---------------------------------------------------#
+
+
+# country = "Egypt"
+# print("A beautiful country" if country ==
+#       "Egypt" else "Not more beautiful than Egypt")
+
+
+# ---------------------------------------------------#
+
+# age = input("Please, type your age\n").strip()
+# unit = input("Please choose time unit: Months, Weeks, Days\n").strip().lower()
+# months = int(age) * 12
+# weeks = months * 4
+# days = int(age) * 365
+# if unit == "months" or unit == "m":
+#     print(f"You choose months\nYou live for {months} months")
+# elif unit == "days" or unit == "d":
+#     print(f"You choosed days\nYou lived for {days} days")
+# elif unit == "weeks" or unit == "w":
+#     print(f"You choosed weeks\nYou lived for {weeks} weeks")
+# else:
+#     print("Wrong unit")
+
+# ---------------------------------------------------#
+
+# name = "Osama"
+# print("s" in name)
+# print("a" in name)
+# print("o" in name)
+# friends = ["Ahmed", "Sayed", "Mahmoud"]
+# print("Osama" in friends)
+# print("Ahmed" not in friends)
+# print("Osama" not in friends)
+
+# countriesOne = ["Egypt", "Makka", "Tunisia"]
+# countriesTwo = ["Bahrain", "Sudan"]
+# discount = 0
+# country = "Sudan"
+# if country in countriesOne:
+#     discount = 30
+# elif country in countriesTwo:
+#     discount = 10
+# else:
+#     discount = 0
+
+# print(f"Discount is {discount}")
+
+
+# ---------------------------------------------------#
+
+# admins = ["Kareem", "Osama", "Saif", "Ahmed"]
+# name = input("Enter your name\n").strip().capitalize()
+
+# if name in admins:
+#     print(f"Welcome {name} to the system")
+#     option = input("Delete or Update your name\n").strip().capitalize()
+#     if option == "Update":
+#         newName = input("Enter your new name\n").strip().capitalize()
+#         print(f"Your new name is {newName}")
+#         admins[admins.index(name)] = newName
+#         print("Name updated successfully")
+#         print(admins)
+#     elif option == "Delete":
+#         admins.remove(name)
+#         print("Name deleted successfully")
+#         print(admins)
+#     else:
+#         print("This is not an option")
+# else:
+#     print(f"{name}, you are not authorized to access the system")
+#     status = input(
+#         "You are not an admin would you like to be added\n").strip().capitalize()
+#     if status == "Yes":
+#         admins.append(name)
+#         print("You were added successfully")
+#         print(admins)
+#     elif status == "No":
+#         print("Okay, Thank you")
+#     else:
+#         print("This is not an option")
+
+
+# ---------------------------------------------------#
