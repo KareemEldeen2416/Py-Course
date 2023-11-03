@@ -657,3 +657,346 @@
 
 
 # ---------------------------------------------------#
+
+
+# a = 0
+# while a < 10:
+#     print(a)
+#     a += 1
+# else:
+#     print("Loop is done")
+
+# print("Done")
+
+
+# e = True
+# while e:
+#     print(e)
+#     e = False
+# else:
+#     print("Done loop")
+
+
+# ---------------------------------------------------#
+
+
+# friends = ["Taki", "Mitsuha", "Ran", "Conan", "Suzume",]
+# index = 0
+# while index < len(friends):
+#     print(f"{str(index + 1).zfill(2)}# {friends[index]}")
+#     index += 1
+# else:
+#     print("All items are printed")
+
+
+# ---------------------------------------------------#
+
+# favWebs = []
+# maxWebs = 5
+# while maxWebs > 0:
+#     web = input("Enter website name\n")
+#     favWebs.append(f"https: //{web.strip().lower()}.com")
+#     maxWebs -= 1
+#     print(f"New website added successfully now you have only {
+#           maxWebs} webs available")
+
+# else:
+#     print("You can not add more webs")
+
+
+# if len(favWebs) > 0:
+#     favWebs.sort()
+
+# index = 0
+# while index < len(favWebs):
+#     print(favWebs[index])
+#     index += 1
+# else:
+#     print("All webs printed")
+
+
+# ---------------------------------------------------#
+
+# tries = 4
+# mainPass = "1234"
+# inputPass = input("Enter Password\n")
+# while inputPass != mainPass and tries > 0:
+#     tries -= 1
+#     if (tries > 0):
+#         print(f"Wrong password! you have {tries} tries left")
+#     else:
+#         print(f"Wrong password! your last try")
+#     inputPass = input("Enter Password\n")
+# else:
+
+#     if (tries == 0):
+#         print("You have run out of all your tries")
+#         print("Not Authorized")
+#     else:
+#         print("Welcome to the system")
+
+
+# ---------------------------------------------------#
+
+# numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+# for number in numbers:
+#     if number % 2 == 0:
+#         print(f"Number {number} is Even")
+#     else:
+#         print(f"Number {number} is Odd")
+# else:
+#     print("Loop is finished")
+
+# myName = "Osama"
+# for letter in myName:
+#     print(f"{letter.upper()}")
+# else:
+#     print("Bye")
+
+
+# ---------------------------------------------------#
+
+# print(type(range(1, 2)))
+# myRange = range(1, 100)
+# for number in myRange:
+#     print(number)
+# else:
+#     print("Bye")
+
+
+# skills = {
+#     "HTML": 100,
+#     "CSS": 90,
+#     "JS": 95,
+#     "Java": 98,
+#     "Python": 60,
+# }
+
+# print(skills["CSS"])
+# print(skills.get("HTML"))
+# print("############################################")
+# for skill in skills:
+#     print(f"The skill {skill} is {skills[skill]}%")
+# else:
+#     print("Ciao")
+
+
+# ---------------------------------------------------#
+
+
+# people = ["Osama", "Ahmed", "Sayed", "Ali"]
+# skills = ["HTML", "CSS", "JS"]
+# for name in people:")
+#     for skill in skills:
+#     print(f"{name}'s skills are:
+#         print(skill)
+#     else:
+#         print("Inner loop finished")
+# else:
+#     print("Outer loop is finished")
+
+
+# people = {
+#     "Osama": {
+#         "HTML": 100,
+#         "CSS": 98,
+#         "JS": 90,
+#     },
+
+#     "Ahmed": {
+#         "HTML": 50,
+#         "CSS": 40,
+#         "JS": 20,
+#     },
+
+#     "Sayed": {
+#         "HTML": 70,
+#         "CSS": 68,
+#         "JS": 40,
+#     }
+# }
+
+# for name in people:
+#     print(f"{name}'s skills are: ")
+#     for skill in people[name]:
+#         print(f"{skill} is {people[name][skill]}%")
+#     else:
+#         print("Inner loop is finished")
+#         print("----------------------")
+# else:
+#     print("Outer loop is finished")
+
+
+# ---------------------------------------------------#
+
+# number = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+# for n in number:
+#     if n == 3:
+#         continue
+#     if n == 7:
+#         break
+#     print(n)
+
+
+# for n in number:
+#     pass
+
+
+# ---------------------------------------------------#
+
+# def function_name ():
+#     print("Hello Python from a function")
+
+# def another_function():
+#     return "Returned value"
+
+# value = another_function()
+# print(value)
+# function_name()
+
+
+# ---------------------------------------------------#
+
+# a , b , c = "Osama" , "Ahmed" , "Sayed"
+
+# def sayHello(name):
+#     print(f"Hello {name}")
+    
+# sayHello(a)
+
+# def addNumbers(n1,n2):
+#     print(n1 + n2)
+
+# addNumbers(1,2)
+
+
+# names = ["Taki" , "Mitsuha" , "Ran" , "Conan" , "Suzume"]
+
+# def printNames(names):
+#     for name in names:
+#         print(name)
+        
+
+# def fullName(fname , mname , lname):
+#     print(f"Hello {fname.strip().capitalize()} {mname.upper():.1s} {lname.lower()}")
+
+# printNames(names)
+# fullName("ran   " , "ni" , "CHAN")
+
+
+# ---------------------------------------------------#
+
+# myList = [1,2,3,4]
+# print(*myList)
+
+# def sayHello (*persons):
+    
+#     for name in persons:
+#         print(f"Hello {name}")
+
+# sayHello("Osama" , "Ahmed" , "Sayed" , "Mahmoud" , "Kamara")
+
+# def showDetails(name , *skills):
+#     for skill in skills:
+#         print(f"Hello {name} Your skills are : ")
+        
+
+# showDetails( "Osama","Playing" , "Studying")
+    
+    
+# ---------------------------------------------------#
+
+# def say_hello(name , age , country = "Unknown"):
+#     print(f"Hello {name}, Your age is {age}, and your country is {country}")
+
+# say_hello("Taki" , 30 , "Japan")
+# say_hello("Ran" , 20 )
+
+# ---------------------------------------------------#
+
+# myDict = {
+#     "HTML" : 100,
+#     "CSS" : 95,
+#     "JS" : 80,
+# }
+
+# def show_skills(**skills):
+#     print(type(skills))
+#     for skill in skills:
+#         print(f"{skill} --> {skills[skill]}")
+
+
+# show_skills( HTML = "90", CSS = "100" , JS = "80") 
+# show_skills(**myDict)
+# print(myDict)
+
+# ---------------------------------------------------#
+
+# skills = {
+#     "HTML" : 100,
+#     "CSS" : 98,
+#     "JS": 90
+# }
+
+# normalSkills = ("Piano" , "Football" , "Painting")
+# def show_skills(name , *skills , **progressSkills):
+#     print(f"Hello {name}\n skills without progress are coming: ")
+#     for skill in skills:
+#         print(f"---> {skill}")
+#     print("Skills with progress are coming: ")
+#     for skill in progressSkills:
+#         print(f"---> {skill} -> {progressSkills[skill]}")
+
+# show_skills("Osama","HTML","CSS",*normalSkills,**skills)
+
+
+
+# ---------------------------------------------------#
+
+# x = 1
+# def one():
+#     global x
+#     x = 2
+#     print(f"From function one {x}")
+
+# def two():
+#     x = 4
+#     print(f"From function Two {x}")
+    
+    
+# print(f"From global scope {x}")
+# one()
+# two()
+# print(f"From global again {x}") 
+
+
+# ---------------------------------------------------#
+
+
+# def cleanWord(word):
+#     if len(word) == 1:
+#         return word
+#     if word[0] == word[1]:
+#         return cleanWord(word[1:])
+    
+    
+#     return word[0] + cleanWord(word[1:])
+
+
+# print(cleanWord("wwwooooorrrllldd"))
+
+
+# ---------------------------------------------------#
+
+# def sayHello(name):
+#     return f"Hello {name}"
+
+# print(sayHello("Osama"))
+
+# hello = lambda name : f"Lambda => hello {name}"
+# print(hello("Ahmed"))
+# print(sayHello.__name__)
+# print(hello.__name__)
+# print(type(hello))
+
+# ---------------------------------------------------#
